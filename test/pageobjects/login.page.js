@@ -1,5 +1,5 @@
 
-const Page = require('./page');
+const Page = require("./page");
 
 class LoginPage extends Page {
 	get username () {return $("//*[@id='user-name']")}
@@ -10,7 +10,7 @@ class LoginPage extends Page {
   get passwordRedcross () {return $("//*[@id='login_button_container']/div/form/div[2]/svg")}
   
 	open () {
-		return super.open('');
+		return super.open("");
 	}
 }
 
