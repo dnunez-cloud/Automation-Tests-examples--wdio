@@ -19,7 +19,7 @@ class cartPage extends Page {
   get checkoutButton () {return $("//*[@id='checkout']")}
 
 	open () {
-		return super.open("");
+		return super.open("cart.html");
 	}
 }
 
