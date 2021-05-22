@@ -1,4 +1,3 @@
-
 const Page = require("./page");
 
 class LoginPage extends Page {
